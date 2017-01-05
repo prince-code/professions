@@ -13,7 +13,7 @@ class Inquiry extends Model
 
     public function user()
     {
-        return $this->belongsTo('App\Profession');
+        return $this->belongsTo('App\User');
     }
     
 }
